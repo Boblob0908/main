@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>StudyE</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <header>
+    <div id="logo" onclick="slowScroll('#top')">
+    </div>
+    <div id="about">
+      <a href="#" title="About us" onclick="slowScroll('#main')">About us</a>
+      <a href="#" onclick="slowScroll('#overview')" title="Courses">Courses</a>
+      <a href="#" onclick="slowScroll('#contacts')" title="Contacts">Contacts</a>
+      <a href="#" onclick="slowScroll('#faq')" title="Info">FAQ</a>
+    </div>
+  </header>
+
+  <div id="top">
+    <h1>Push yourself, because no one else is going to do it for you.</h1>
+  </div>
+
+  <div id="main">
+    <div class="intro">
+      <h2>This platform for self-study</h2>
+      <span style="margin-top: 20px ;">Try by hard to achive success.</span>
+    </div>
+    <div class="text">
+      <span>Our platform more concentrated on self-study. You can choose your way by yourself.We provide different and quality educational content for you</span>
+    </div>
+  </div>
+
+  <div id="overview">
+    <h2>Our courses</h2>
+<div class="bl" >
+  <div class="img">
+    <a href="https://youtube.com/playlist?list=PLuY6eeDuleIMbdiCzaZuPjxXE24eAG5qo&si=Dd4zg3RP9LQQ8QYU">
+    <img src="pic111.jpg" alt="">
+    <span>
+      Layout from PSD on Bootstrap 4 and BEM</span>
+  </a>
+  </div>
+
+  <div class="img">
+    <a href="https://youtube.com/playlist?list=PL0lO_mIqDDFWdwhHdoo66yGqrSzg95Bde&si=qUmhos60yT0lCQNj">
+      <img src="pic22.jpg" alt="">
+      <span>Game development in C# from scratch / C# WinForms game for beginners</span>
+    </a>
+    </div>
+    <div class="img">
+      <a href="https://www.coursera.org/learn/mathematical-thinking">
+        <img src="pic33.jpg" alt="">
+        <span>Introduction to Mathematical Thinking</span>
+      </a>
+    </div>
+    <div class="img">
+      <a href="https://youtube.com/playlist?list=PLuY6eeDuleIMbdiCzaZuPjxXE24eAG5qo&si=Dd4zg3RP9LQQ8QYU">
+        <img src="pic111.jpg" alt="">
+        <span>Introduction to Complex Analysis</span>
+      </a>
+    </div>
+  </div>
+  <div class="bl" >
+    <div class="img">
+      <a href="https://www.coursera.org/learn/mathematical-thinking">
+        <img src="pic88.jpg" alt="">
+        <span>Introduction to Mathematical Thinking</span>
+      </a>
+      </div>
+      <div class="img">
+        <a href="https://youtube.com/playlist?list=PL0lO_mIqDDFXG5wKzgXiuFiGl6jBp4yhn&si=g_kCCOaAxoXyy-Lf">
+          <img src="pic00.jpg" alt="">
+          <span>
+            Unreal Engine 4 Tutorials / Creating a Shooter</span>
+        </a>
+      </div>
+  </div>
+</div>
+
+  <div id="contacts">
+    <center><h5>Callback form</h5></center>
+    <form id="form_input">
+      <label for="name">Name <span>*</span></label><br>
+      <input type="text" placeholder="Enter name" name="name" id="name"><br>
+      <label for="email">Your email <span>*</span></label><br>
+			<input type="email" placeholder="Enter email" name="email" id="email"><br>
+			<label for="message">Message<span>*</span></label><br>
+			<textarea placeholder="Enter your message" name="message" id="message"></textarea><br>
+			<div id="mess_send" class="btn">Send</div>
+    </form>
+  </div>
+
+  <div id="faq">
+    <div class="element">
+      <span class="title">Donation</span><br>
+      <span class="heading">Purpose of donation</span>
+      <p>As we are non-profit project which aims to help people from all of the world to attain heights in the field of IT, we need a funding to offer this opportunity to every human-being on Earth. Your donation will be considered as a contribution to the future generation full of great innovations and amazing discoveries.</p>
+      <span class="heading">Why do we need a donation ?</span>
+      <p>Although we have a tuition for course, our team is aware of the fact that not every human has the capability to pay indicated amount of money. Therefore, we are openning a program based on your funding where prospective students will be accepted. </p>
+      <div class="faqbtn" >Donate</div>
+    </div>
+    <div class="element">
+      <span class="title">Student support</span><br>
+      <span class="heading">What is included in our support service ?</span>
+      <p>Codemy is famous for its distinctive approach to educate people. Therefore, we offer you such opportunities as a platfrom, where you can book a meeting with Teacher Assistant, or be aware of venets organised by our school. Also, we are glad to present a chat for students of a course.</p>
+      <span class="heading">Why do we need a student support platform ?</span>
+      <p>Codemy platform is a useful website where our students will psend 80% of the time. There will be held all online lectures, also there will be submitted homework assignments. In addition, there is a chat for students and teachers, to maintain a contact.</p>
+      <div class="faqbtn" >Visit</div>
+    </div>
+    <div class="element">
+       <span class="title">Tuition fee</span><br>
+      <span class="heading">How much is it ?</span>
+      <p>Our main courses cost 500$. In that package, we include unique materials, personolized online platform, the best teachers and teacher assistants, and a lot of pleasant news.</p>
+      <span class="heading">How long will course take ?</span>
+      <p>All our courses endure 6 months. In that period, our students will learn fundamentals of language, and will acquire knowledges of oop structure. In addition, they will develop their own projects during the whole course, and will learn how to create websites, games and mobile apps using their programming language.</p>
+      <div class="faqbtn" >Pay</div>
+    </div>
+  </div>
+  <div class="footer"><p>&copy;<span id="year"> </span><span> Codemy. All rights reserved.</span></p></div>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    function slowScroll(id) {
+      $('html, body').animate({
+        scrollTop: $(id).offset().top
+      }, 500);
+    }
+
+    $(document).on("scroll", function () {
+      if($(window).scrollTop() === 0)
+        $("header").removeClass("fixed");
+      else
+        $("header").attr("class", "fixed");
+    });
+    let year = document.querySelector("#year");
+
+  $(document).ready(function () {
+  year.innerText = new Date().getFullYear();
+  });
+  </script>
+</body>
+</html>
